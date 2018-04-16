@@ -1,0 +1,91 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 13,
+        "name": "Realizar Consulta",
+        "description": "",
+        "id": "projeto-utilizado-para-criar-uma-rotina-de-teste-do-trivago;realizar-consulta;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11461894172,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "testeTrivago - Acessar a tela inicial",
+            "match": {
+              "location": "Teste.acessarPagina()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 274771942,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "testeTrivago - Fazer busca Rio Branco",
+            "match": {
+              "location": "Teste.realizarBusca()"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5157718129,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "tesetTrivago - Escolher data qualquer entrada",
+            "match": {
+              "location": "Teste.dataInicial()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5184918292,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "testeTrivago - Escolher data qualquer saida",
+            "match": {
+              "location": "Teste.dataFinal()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5197273112,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "testeTrivago - Escolher primeira oferta",
+            "match": {
+              "location": "Teste.verOferta()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@testeTrivago"
+          }
+        ]
+      }
+    ],
+    "name": "Projeto utilizado para criar uma rotina de teste do Trivago",
+    "description": "",
+    "id": "projeto-utilizado-para-criar-uma-rotina-de-teste-do-trivago",
+    "keyword": "Feature",
+    "uri": "src/test/java/execution/testesTrivago.feature"
+  }
+]
